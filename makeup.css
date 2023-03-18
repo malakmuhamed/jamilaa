@@ -1,155 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
 
 }
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 
 html::-webkit-scrollbar-track {
-    background: transparent;
+  background: transparent;
 }
 
 html::-webkit-scrollbar {
-    width: 1rem;
+  width: 1rem;
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: red;
+  background-color: red;
 }
 
 section {
-    padding: 3rem 9%;
+  padding: 3rem 9%;
 }
 
 
 
 .heading {
-    text-align: center;
-    color: #222;
-    margin-bottom: 3rem;
-    font-size: 4rem;
+  text-align: center;
+  color: #222;
+  margin-bottom: 3rem;
+  font-size: 4rem;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(-4rem) scale(0.4);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.4);
+  }
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 9%;
 }
 
 .header.logo {
-    font-size: 2.5rem;
-    color: #222;
-    font-weight: bolder;
+  font-size: 2.5rem;
+  color: #222;
+  font-weight: bolder;
 }
 
 .header.logo i {
-    color: #e60000;
+  color: #e60000;
 }
 
 .header .navbar a {
-    margin: 0 1.5rem;
-    font-size: 1.7rem;
-    color: #222;
+  margin: 0 1.5rem;
+  font-size: 1.7rem;
+  color: #222;
 }
 
 .header .navbar a:hover {
-    color: #e60000;
+  color: #e60000;
 }
 
 .header .icons div,
 .header .icons a {
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    border-radius: .5rem;
-    background: #eee;
-    font-size: 1.7rem;
-    color: #222;
-    margin-left: .3rem;
-    text-align: center;
-    cursor: pointer;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: .5rem;
+  background: #eee;
+  font-size: 1.7rem;
+  color: #222;
+  margin-left: .3rem;
+  text-align: center;
+  cursor: pointer;
 }
 
 .header .icons a:hover,
 .header .icons div:hover {
-    background: #e60000;
-    color: #fff;
+  background: #e60000;
+  color: #fff;
 }
 
 .header #menu-btn {
-    display: none;
+  display: none;
 }
 
 @media(max-width:991px) {
-    htnl {
-        font-size: 55%;
-    }
+  htnl {
+    font-size: 55%;
+  }
 
-    .header {
-        padding: 1.5rem 2rem;
-    }
+  .header {
+    padding: 1.5rem 2rem;
+  }
 }
 
 @media (max-width:768px) {
-    .header #menu-btn {
-        display: inline-block;
-    }
+  .header #menu-btn {
+    display: inline-block;
+  }
 
-    .header .navbar {
-        position: absolute;
-        top: 99%;
-        left: 0;
-        right: 0;
-        background: #fff;
-        border-top: 0.2rem solid #222;
-        border-bottom: 0.2rem solid #222;
-        padding: 0.2rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 0.2rem solid #222;
+    border-bottom: 0.2rem solid #222;
+    padding: 0.2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
 
-    .header .navbar.active {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 
-    .header .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 1rem;
-    }
+  .header .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 1rem;
+  }
 }
 
 /* sssssssss */
 /* styling product */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300&display=swap');
+
 span {
   color: #f08080;
 }
@@ -279,3 +280,71 @@ span {
   font-size: 1.7rem;
   text-decoration: line-through;
 } */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.main {
+  cursor: pointer;
+}
+
+.checked {
+  color: rgb(177, 40, 111);
+}
+
+.unchecked {
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+.btn1-group button {
+  background-color: white;
+  /* color: rgb(103, 8, 81); */
+  color: white;
+  width: 350px;
+  height: 50px;
+
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(103, 8, 81);
+}
+
+.btn1-group {
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn1-group a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(103, 8, 81);
+}
+
+.btn1-group a:hover {
+  color: white;
+}
+
+.btn1-group button:hover {
+  background-color: rgb(103, 8, 81);
+}
+
+.btn1-group button:hover a {
+  color: white;
+}
