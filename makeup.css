@@ -146,3 +146,136 @@ section {
         margin: 3rem 1rem;
     }
 }
+
+/* sssssssss */
+/* styling product */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300&display=swap');
+span {
+  color: #f08080;
+}
+
+
+.heading {
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Tinos', serif;
+  font-weight: normal;
+  color: purple;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.headingg {
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Tinos', serif;
+  font-weight: normal;
+  color: purple;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+
+}
+
+
+.shop {
+  color: black;
+}
+
+span {
+  color: #f08080;
+}
+
+.shop .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 5fr));
+
+}
+
+.shop .box-container .box {
+  text-align: center;
+
+
+}
+
+.shop .box-container .box:hover .img img {
+  transform: scale(1.1);
+}
+
+.shop.box-container .box:hover .img .icons {
+  transform: translateX(0rem);
+}
+
+
+
+
+
+
+
+
+.shop .box-container .box .img {
+  position: relative;
+  overflow: hidden;
+}
+
+.shop .box-container .box .img img {
+
+  padding: 30px 30px 30px 30px;
+  width: 45rem;
+  height: 50rem;
+
+}
+
+
+.shop .box-container .box .img .icons {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  transform: translate(-10rem);
+}
+
+.shop .box-container .box .img .icons a {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  line-height: 4.5rem;
+  font-size: .7rem;
+  color: #222;
+  border-radius: 0.2rem solid #222;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+
+}
+
+.shop .box-container .box .img .icons a:hover {
+  color: black;
+  background: black;
+}
+
+
+.shop .box-container .box .content {
+  padding: 1rem;
+}
+
+.shop .box-container .box .content h3 {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Tinos', serif;
+  font-size: 2.4rem;
+
+  color: rgb(94, 31, 94);
+
+  /* padding-bottom: 3rem; */
+  font-weight: lighter;
+}
+
+/* .shop .box-container .box .content .price {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #f08080;
+}
+
+.shop .box-container .box .content .price span {
+  color: #666;
+  font-size: 1.7rem;
+  text-decoration: line-through;
+} */
