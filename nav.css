@@ -15,7 +15,7 @@ font-family: 'roboto', sans-serif;
     top:0;
     left:0;
     width: 100%;
-   
+   position: fixed;
     background:#fdf6f0;
     /* z index to highest number so nav will always be on top of other elements*/
     z-index: 9;
