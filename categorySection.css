@@ -37,14 +37,14 @@ section {
     -webkit-transition: padding .4s ease-in-out;
     transition: padding .4s ease-in-out;
 }
-.container {
+/* .container {
     margin: 0 auto;
     max-width: 1440px;
     padding-left: 1.875rem;
     padding-right: 1.875rem;
     -webkit-transition: padding .4s ease-in-out;
     transition: padding .4s ease-in-out;
-}
+} */
 *, :after, :before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
