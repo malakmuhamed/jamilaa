@@ -9,7 +9,7 @@
   border: none;
   text-transform: capitalize;
   transition: all .2s linear;
-background-color:  #fdfbf8;
+/* background-color:  #fdfbf8; */
 }
 html {
   font-size: 62.5%;

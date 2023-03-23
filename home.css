@@ -18,6 +18,19 @@ justify-content:space-between;
 /* padding:20px 80px; */
 
 
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color:#ab7084;
+  opacity: 0.2;
+}
+
 
 
 /* .container{
