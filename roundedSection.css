@@ -6,10 +6,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-section {
+.rounded {
    /* position: relative;  */
    width: 100%;
-   padding:50px ;
+   padding:90px ;
 
 }
 .circle

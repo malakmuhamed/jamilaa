@@ -9,6 +9,7 @@ section {
 }
 .home-shade-finder__collage {
     margin: -1.125rem 0 2.0625rem;
+  
 }
 .home-shade-finder__collage {
     display: -webkit-box;
@@ -20,6 +21,7 @@ section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    
     margin: 1.875rem -2.625rem 1.75rem;
 }
 

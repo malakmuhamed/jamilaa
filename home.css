@@ -2,20 +2,23 @@
     font-family: myFont;
     src: url(GreatVibes-Regular.ttf);
 }
+body{
+  background-color: #fdf6f0;
+}
 .box{
     float: left;
     width:33.33%;
     padding:4px;
     size-adjust: 20 20;
 }
-#roundimage{
+/* #roundimage{
     display:flex;
 align-items: center;
 justify-content:space-between;
-padding:20px 80px;
+/* padding:20px 80px; */
 
 
-}
+
 
 /* .container{
     margin:15px auto;
