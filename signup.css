@@ -9,7 +9,7 @@
     left:0;
     width: 100%;
    
-    background: #f5f5f5;
+    background: #fdf6f0;
     /* z index to highest number so nav will always be on top of other elements*/
     z-index: 9;
 }
@@ -47,17 +47,17 @@
     /* round the left top and bottom corners */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: 1px solid #d1d1d1;
+    border: 1px solid ##fdf6f0;
     text-transform: capitalize;
     background: none;
-    color: #a9a9a9;
+    color: ##fdf6f0;
     outline: none;
     
 }
 /* using placeholder keyword to style inout's placeholder */
 .search-box::placeholder
 {
-color:#a9a9a9;
+color:##fdf6f0;
 }
 .search-btn
 {
@@ -67,7 +67,7 @@ color:#a9a9a9;
     border: none;
     outline: none;
     cursor: pointer;
-    background: #383838;
+    background: ##fdf6f0;
     color: #fff;
     text-transform: capitalize;
     font-size: 15px;
@@ -90,7 +90,7 @@ color:#a9a9a9;
     padding: 10px 10vw;
     justify-content: center;
     list-style: none;
-    border-top:1px solid #d1d1d1;
+    border-top:1px solid #fdf6f0;
 
 }
 .link
