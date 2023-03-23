@@ -58,10 +58,10 @@ font-size: 14px;
     /* round the left top and bottom corners */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: 1px solid #ab7084;
+    border: 1px solid #7B0137;
     text-transform: capitalize;
     background: none;
-    color: #ab7084;
+    color: #7B0137;
     outline: none;
     
 }
@@ -78,7 +78,7 @@ color:#ab7084;
     border: none;
     outline: none;
     cursor: pointer;
-    background: #ab7084;
+    background: #7B0137;
     color: #fff;
     text-transform: capitalize;
     font-size: 15px;

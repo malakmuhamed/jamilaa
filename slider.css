@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,800&family=Poppins:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,8 +21,14 @@
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
+    font-family: 'EB+Garamond';
   }
-  
+  .product-category h2{
+    font-family: 'EB+Garamond';
+    color: #ab7084;
+    
+    
+  }
   .product-container {
     padding: 0 10vw;
     display: flex;
@@ -59,7 +65,7 @@
     background: #fff;
     padding: 5px;
     border-radius: 5px;
-    color: #ff7d7d;
+    color: #ab7084;
     right: 10px;
     top: 10px;
     text-transform: capitalize;
@@ -83,12 +89,19 @@
   }
   
   .product-card:hover .card-btn {
-    opacity: 1;
+    opacity: 0.6;
   }
+  .product
+  {
+    
+      margin-top: 7.6875rem;
+      padding-bottom: 6.25rem;
   
+  }
   .card-btn:hover {
-    background: #ff7d7d;
+    background: #ab7084;
     color: #fff;
+    
   }
   
   .product-info {
@@ -96,6 +109,10 @@
     height: 100px;
     padding-top: 10px;
   }
+  /* .discription
+  {
+    border: 0.5px solid #df0951;
+  } */
   
   .product-brand {
     text-transform: uppercase;
@@ -109,11 +126,14 @@
     opacity: 0.5;
     text-transform: capitalize;
     margin: 5px 0;
+    text-align: center;
+   
   }
   
   .price {
     font-weight: 900;
     font-size: 20px;
+    color: RGB(123 1 55);
   }
   
   .actual-price {
@@ -188,4 +208,9 @@
     grid-column: span 2;
     margin-bottom: 10px;
   }
-  
+  p{
+    text-align: center;
+    color: #ab7084;
+    font-weight: bold;
+    
+  }
