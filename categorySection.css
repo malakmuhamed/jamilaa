@@ -7,7 +7,7 @@
     margin-bottom: 3.25rem;
 }
 .bg-peach {
-    background: #fdf6f0;
+    background: white;
 }
 :after, :before {
     -webkit-box-sizing: border-box;
@@ -24,8 +24,8 @@ section {
     padding-right: 9.09722%;
 }
 .container {
-    padding-left: 5.90278%;
-    padding-right: 5.90278%;
+    padding-left: 0;
+    padding-right: 0;
 }
 .section-header-wrap {
     padding-top: 5rem;
