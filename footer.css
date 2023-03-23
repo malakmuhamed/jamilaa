@@ -22,6 +22,7 @@ footer .content{
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  border: #7f2549 solid 0.5px;
   justify-content: space-between;
 }
 footer .content p,a{
