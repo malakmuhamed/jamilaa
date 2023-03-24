@@ -10,6 +10,10 @@
         box-sizing: border-box;
     }
 
+    body {
+        background-color: #fdf6f0;
+    }
+
     .container.mySlides {
         width: 40px;
         height: 40px;
@@ -121,7 +125,7 @@
         position: absolute;
         left: 70px;
         width: 350px;
-        top: 90px;
+        top: 100px;
 
     }
 
@@ -144,7 +148,7 @@
     }
 
     .btn1-group button {
-        background-color: white;
+        background-color: #fdf6f0;
         /* color: rgb(103, 8, 81); */
         color: white;
         width: 350px;
@@ -179,6 +183,12 @@
     .btn1-group button:hover a {
         color: white;
     }
+
+    #quantity {
+        border: solid 1px;
+        border-radius: 3px;
+        background-color: #fdf6f0;
+    }
 </style>
 
 <body>
@@ -193,16 +203,20 @@
             <i class="fa fa-star unchecked" id="five"></i>
         </div>
         <div class="words">
+            <h4>DESCRIPTION:</h4>
             All cosmetics are temporary. They need to be renewed after a certain time. Cosmetics include lipstick,
             powders (e.g. blush, eyeshadow), and lotions as well as other things.
-            Most cosmetic products and methods are intended to improve the look of the face. There are two categories:
-            those which improve the basic quality of the skin.
-            We can offer a wide range of customizable sizes, shapes and colors to create a distinct, recognizable
-            product to enhance your brand equity.
+            <!-- Most cosmetic products and methods are intended to improve the look of the face. There are two categories:
+      those which improve the basic quality of the skin. -->
+            <!-- We can offer a wide range of customizable sizes, shapes and colors to create a distinct, recognizable
+      product to enhance your brand equity. -->
 
             A silky, second-skin liquid highlighter that creates an instantly dewy, buildable glow while also nourishing
             skin so it looks on the bright side all day
         </div>
+        <br>
+        Quantity: <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <br>
         <br>
         <div class="btn1-group">
             <button><a href="#"> ADD TO BAG .20$</a></button>
@@ -223,24 +237,24 @@
         </div>
 
         <!-- <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="images/eye3.png" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="images/eye4.png" style="width:100%">
-  </div>
+            <div class="numbertext">3 / 6</div>
+            <img src="images/3edit-1.png" style="width:100%">
+        </div> -->
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="images/eye5.png" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="images/eye6.png" style="width:100%">
-  </div> -->
+        <!-- <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="images/eye4.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="images/eye5.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="images/eye6.png" style="width:100%">
+    </div> -->
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
@@ -257,17 +271,17 @@
                 <img class="demo cursor" src="images/skincare2.png" style="width:100%" onclick="currentSlide(2)">
             </div>
             <!-- <div class="column">
-      <img class="demo cursor" src="images/eye3.png" style="width:100%" onclick="currentSlide(3)" >
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/eye4.png" style="width:100%" onclick="currentSlide(4)" >
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/eye5.png" style="width:100%" onclick="currentSlide(5)" >
-    </div>    
-    <div class="column">
-      <img class="demo cursor" src="images/eye6.png" style="width:100%" onclick="currentSlide(6)" >
-    </div> -->
+                <img class="demo cursor" src="images/3edit-1.png" style="width:100%" onclick="currentSlide(3)">
+            </div> -->
+            <!-- <div class="column">
+        <img class="demo cursor" src="images/eye4.png" style="width:100%" onclick="currentSlide(4)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/eye5.png" style="width:100%" onclick="currentSlide(5)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/eye6.png" style="width:100%" onclick="currentSlide(6)">
+      </div> -->
         </div>
     </div>
 
